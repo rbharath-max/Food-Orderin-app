@@ -1,0 +1,143 @@
+body {
+    
+    border: 0;
+    font-family: 'Grand Hotel', cursive;
+    
+} 
+header{
+    background-image: url("https://media.istockphoto.com/id/1159174187/photo/pizza-quattro-formaggi-on-the-rome-dough.jpg?s=612x612&w=0&k=20&c=qN8pOqBuyHRvZMYknDMh20UjaKayN1omZzqFX34Q99g=");
+    background-size: cover;
+    margin: 0 auto;
+    height: 200px;
+    text-align: center;
+    color: whitesmoke;
+    font-size: 30px;
+    }
+ .container {
+     margin: 0 auto;
+     height: 700px;
+     width: 600px;
+     padding: 20px;
+ }  
+ 
+ span {
+    font-size: 70px;
+    line-height: 2;
+ }
+ 
+.foods{
+    display: flex;
+    justify-content: flex-start;
+    border-top: 3px solid lightgray;
+    padding: 40px 0 0 0;
+    width: 100%;
+    margin: 15px 0; 
+    font-size: 20px
+    }
+h2, h3, p2 {
+    margin-left: 20px
+}
+i {
+    margin-left: 200px;
+    margin-top: 100px;
+    cursor: pointer;
+}
+.order {
+    text-align: center;
+    margin-top: 30px;
+    border-bottom: 3px solid lightgray;
+    
+}
+.btn, .paybtn {
+   margin-top: 50px;
+   margin-bottom: 50px;
+    background: #16DB99;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    
+   
+
+    
+}
+.text {
+    margin-left: 300px;
+}
+
+
+.secondcontainer {
+    display: block;
+    text-align: center;
+    font-weight: bolder
+    
+}
+.price {
+    margin-left: 400px;
+    font-weight: lighter;
+    font-size: 20px
+}
+
+.totalprice {
+        border-top: 3px solid lightgray;
+        text-align: center;
+        margin-top: 100px;
+    
+}
+p6 {
+    margin-left: 300px;
+}
+.btn:hover,
+.paybtn:hover{
+    background: skyblue;
+}
+
+.inner {
+    display: none;
+    position: fixed;
+    right: 0;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    height: 420px;
+    width: 350px;
+    padding: 50px;
+    border: none;
+    border-radius: 5px;
+    background: whitesmoke;
+    font-weight: bolder;
+    
+}
+input{
+    margin-top: 10px; 
+    border: 1px solid #212529;
+    padding: 10px;
+    width: 100%;
+    border-radius: 3px;
+}
+.pay {
+    margin: 0 auto;
+    font-size: 30px
+}
+.inner-text {
+    text-align: center;
+    font-size: 25px;
+}
+.remove {
+    margin-left: 10px;
+    font-size: 8px;
+    padding: 5px 10px;
+    border: none;
+    color: white;
+    background: greenyellow;
+}
+.remove:hover {
+    background: burlywood;
+}
+img {
+    width: 350px;
+    
+}
+
+
+    
